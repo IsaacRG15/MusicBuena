@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Musicas</title>
+        <link rel="stylesheet" href="src/css/estilos.css">
+    </head>
+    <body>
+        <header id="header2">
+            <h1>
+                <span style="margin-right: 550px;" id="icon" onclick="toggleMenu()">&#9776;</span>
+                <span>MUSICAS</span>
+            </h1>
+        </header>
+        <main>
+            <center>
+                <table>
+                    <tr>
+                        <td>
+                            <div class="box">
+                                <a href="music_paginas/music1.html">
+                                    <br>
+                                    <img src="src/images/1.jpg">
+                                    <h5>Looking Out For You</h5>
+                                    <h6>Joy Again</h6>
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <header id="ordenar">
+                    <h1>
+                        <span><a href="music_orden/A.html">A</a></span>
+                        <span><a href="music_orden/B.html">B</a></span>
+                        <span><a href="music_orden/C.html">C</a></span>
+                        <span><a href="music_orden/D.html">D</a></span>
+                        <span><a href="music_orden/E.html">E</a></span>
+                        <span><a href="music_orden/F.html">F</a></span>
+                        <span><a href="music_orden/G.html">G</a></span>
+                        <span><a href="music_orden/H.html">H</a></span>
+                        <span><a href="music_orden/I.html">I</a></span>
+                        <span><a href="music_orden/J.html">J</a></span>
+                        <span><a href="music_orden/K.html">K</a></span>
+                        <span><a href="music_orden/L.html">L</a></span>
+                        <span><a href="music_orden/M.html">M</a></span>
+                        <span><a href="music_orden/N.html">N</a></span>
+                        <span><a href="music_orden/Ñ.html">Ñ</a></span>
+                        <span><a href="music_orden/O.html">O</a></span>
+                        <span><a href="music_orden/P.html">P</a></span>
+                        <span><a href="music_orden/Q.html">Q</a></span>
+                        <span><a href="music_orden/R.html">R</a></span>
+                        <span><a href="music_orden/S.html">S</a></span>
+                        <span><a href="music_orden/T.html">T</a></span>
+                        <span><a href="music_orden/V.html">V</a></span>
+                        <span><a href="music_orden/W.html">W</a></span>
+                        <span><a href="music_orden/X.html">X</a></span>
+                        <span><a href="music_orden/Y.html">Y</a></span>
+                        <span><a href="music_orden/Z.html">Z</a></span>
+                    </h1>
+                </header>
+            </center>
+        </main>
+        <div id="menu">
+            <div id="menu-content">
+                <center>
+                    <h1>Menú</h1>
+
+                    <a href="index.html">Inicio</a><br>
+                    <a href="Musica.html">Musicas</a><br>
+                    <a href="Mi_Lista.html">Mi Lista</a><br>
+                    <a href="Login.html">Iniciar Sesion</a><br>
+
+                    <button id="close-btn" onclick="toggleMenu()">Cerrar Menú</button>
+                </center>
+                
+                
+            </div>
+        </div>
+        <script>
+            function toggleMenu() {
+                var menu = document.getElementById('menu');
+                menu.style.display = (menu.style.display === 'none' || menu.style.display === '') ? 'block' : 'none';
+            }
+        </script>
+    </body>
+</html>

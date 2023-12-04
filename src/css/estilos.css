@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+#header1 {
+    background-color: #00C853; 
+    color :  black; 
+    padding : 15px;
+    border-radius: 40px;
+}
+
+.box {
+    width: 200px;
+    height: 250px;
+    background-color: #000000;
+    margin: 10px;
+    transition: transform 0.3s;
+    display: inline-block;
+    border: 2px solid #fdfdfd;
+}
+
+.box:hover {
+    transform: scale(1.1);
+}
+
+.box a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    line-height: 10px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+#icon {
+    font-size: 25px; 
+    cursor: pointer;
+}
+
+#menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 25%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    border-radius: 10px;
+}
+
+#menu-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%; 
+    height: 100%; 
+    box-sizing: border-box; 
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#close-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#menu-content a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    line-height: 10px;
+    background-color: #00C853; 
+    padding : 15px;
+    border-radius: 40px;
+    margin-bottom: 0px; 
+    display: block; 
+}
+
+#header2 {
+    background-color: #799183; 
+    color :  black; 
+    padding : 5px;
+    border-radius: 20px;
+}
+
+#ordenar span a{
+    font-size: 25px; 
+    cursor: pointer; 
+    margin-right: 1px;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    line-height: 10px;
+    padding : 5px;
+    border-radius: 40px;
+}
+
+#login-container {
+    width: 300px;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #222;
+    text-align: center;
+}
+
+
+#login form{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    line-height: 10px;
+    padding : 15px;
+    border-radius: 40px;
+}
+
+#login h1{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    line-height: 10px;
+    background-color: #00C853; 
+    padding : 15px;
+    border-radius: 40px;
+    margin-bottom: 0px; 
+    display: block;
+}
+
+#bodyrol {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #000000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#posicionmusic {
+    width: 300px;
+    margin: 10% auto; /* Ajusta el porcentaje según sea necesario */
+    box-sizing: border-box;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: #222;
+    text-align: center;
+}
+
+#posicionmusic div{
+    margin: 0;
+}
+#estilodeatras a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    line-height: 10px;
+    padding: 5px;
+}
+
+
